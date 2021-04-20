@@ -1,0 +1,91 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-image: url(../images/seamless_paper_texture.png);
+  text-align: left;
+  color: #723a09;
+  line-height: 1.5; }
+
+@font-face {
+  font-family: 'Londrina Solid';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/londrinasolid/v10/flUhRq6sw40kQEJxWNgkLuudGcNZ.ttf) format("truetype"); }
+
+h1 {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 3rem;
+  color: black; }
+
+h2 {
+  font-family: inherit;
+  color: black;
+  margin: 10px; }
+
+h3 {
+  font-family: inherit;
+  color: black; }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #ebc14e; }
+
+.wrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+
+.wrapper3 {
+  padding-top: 20px;
+  border-top-style: dotted;
+  border-radius: 0; }
+
+.box {
+  float: left;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-right: 20px; }
+
+.nexttologo {
+  position: relative; }
+
+.headline {
+  margin: 60px 0 0 0; }
+
+.menu {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  display: inline-block; }
+
+.about {
+  color: white;
+  text-decoration: none;
+  background-color: #d15999;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px; }
+
+.recipes {
+  color: white;
+  background-color: #d15999;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px; }
+
+.box2 {
+  display: block;
+  width: 100%;
+  margin: 20px; }
+
+article {
+  display: flex;
+  flex-direction: column; }
+
+img {
+  max-width: 100%;
+  padding: 15px; }
